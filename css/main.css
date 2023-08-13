@@ -83,6 +83,7 @@ html,body {
     font-size: 80px;
     font-weight: bold;
     color: var(--Charade);
+    padding-top: 10px;
 }
 .header__text_p {
     font-size: 35px;
@@ -235,6 +236,9 @@ html,body {
     align-items: center;
     font-size: 40px;
     color: var(--Charade);
+}
+.contacts-heading > img{
+    margin-right: 15px;
 }
 
 .contacts-info {
@@ -393,6 +397,13 @@ html,body {
         justify-content: center;
         font-size: 35px;
     }
+    .slider {
+    position: relative;
+    width: 100%;
+    display: flex;
+    left: 0;
+    overflow: hidden;
+}
    
 }
 @media screen and (max-width: 600px) {
